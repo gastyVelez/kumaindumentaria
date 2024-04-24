@@ -68,8 +68,19 @@ body {
 }
 
 /* estilos para hoja productos */
+.productos {
+    margin: 30px auto;
+    width: 90%;
+    outline: 4px solid;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
 .element-1 {
     background-color: aqua;
+    justify-content: center;
 }
 .element-2 {
     background-color: brown;
@@ -80,3 +91,4 @@ body {
 .element-4 {
     background-color: chocolate;
 }
+
