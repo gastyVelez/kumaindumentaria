@@ -17,11 +17,7 @@ body {
     color: aliceblue;
     padding: 10px;
     background-color: black;
-}
-
-.menu-central {
-   
-
+    text-transform: uppercase;
 }
 
 .active {
@@ -71,9 +67,16 @@ body {
     gap: 5px;
 }
 
-.slide img {
-    height: 600px;
+/* estilos para hoja productos */
+.element-1 {
+    background-color: aqua;
 }
-
-
-
+.element-2 {
+    background-color: brown;
+}
+.element-3 {
+    background-color: chartreuse;
+}
+.element-4 {
+    background-color: chocolate;
+}
