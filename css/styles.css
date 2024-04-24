@@ -1,64 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: sans-serif;
 }
 
-.wrapper {
+.banner1 {
     display: flex;
-    flex-flow: row wrap;
-    text-align: center;
-}
-
-.wrapper > * {
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
     padding: 10px;
-    margin: 10px;
-    flex: 1 100%;
-    border-radius: 10px;    
-}
-.header {
-    background: tomato;
-    height: 120px;
+    background-color: black;
 }
 
-.nav {
-    background: plum;
-    height: 80px;
+.menu-central {
+   
+
 }
 
-.footer {
-    background: skyblue;
-    height: 80px;
+.active {
+    color: red;
 }
 
-.main {
-    background: greenyellow;
-    height: 300px;
-    padding: 40px;
-    font-size: 20px;
-    text-align: center;
-}
+.banner2 {
+    display: flex;
+    justify-content: space-between;
 
-.aside1 {
-    background: yellowgreen;
-}
+    ul {
+        display: flex;
+        gap: 20px;
+        list-style: none;
 
-/* Responsive */
-@media all and (min-width: 800px) {
-    .main {
-        flex: 2;
-    }
-    .aside1 {
-        order: 2;
-    }
-    .main {
-        order: 1;
-    }
-    .footer {
-        order: 4;
+        a {
+            text-decoration: none;
+        }
     }
 }
 
-@media all and (min-width: 600px) {
-    .aside {
-        flex: 1;
-    }
+.menu-central {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size:x-large
+
+   
 }
+
+.menu-central li a {
+    text-decoration: none;
+}
+
+.datos {
+    display: flex;
+    gap: 20px;
+}
+
+.buscador {
+    display: flex;
+    gap: 5px;
+}
+
+.slide img {
+    height: 600px;
+}
+
+
+
